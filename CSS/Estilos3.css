@@ -1,0 +1,105 @@
+
+ * {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+/** 1 */
+*{
+    background-color: #FCF6BD;
+}
+/** 2 */
+h1{
+    color: #FF99C8;
+}
+/** 3*/
+a[href^="https://"]
+{
+     color: #E4C1F9;
+}
+/** 4 */
+a:hover {
+    color:  #D0F4DE;
+}
+/** 5 */
+button:active {
+    background-color: #E4C1F9;
+}
+
+html[lang|="es"]{
+    font-family:"Lora";
+    font-weight: 950;
+    font-style: normal;
+}
+/** 6 */
+a::before {
+ content:"💝";
+}
+/** 7 */
+blockquote::after{
+    content:"👀";
+    border: 3px solid #A9DEF9;
+}
+/** 8 */
+ul li::marker{
+    content: "🕳️";
+}
+/** 9*/
+ul li ul li::marker{
+    content: "⁕";
+}
+/** 10 */
+ul li ul li ul li::marker{
+    content:"•";
+}
+/** 11*/
+p::first-letter{
+    font-size: 20px;
+    color: black;
+}
+/** 12 */
+button{
+    background-color:#FF99C8 ;
+}
+/** 13*/
+input:focus{
+    border: 5px solid  #D0F4DE;
+}
+/** 14*/
+button:disabled{
+    color: #FF99C8;
+}
+/** 15*/
+blockquote::before{
+    content: "Cita:";
+    font-size: 30px;
+    font-weight: bold;
+    color:#E4C1F9;
+}
+/** 16*/
+p::first-line{
+    color: rgba(32, 29, 29, 0.479);
+}
+/** 17*/
+input[type="text"]{
+    background-color: #A9DEF9 ;
+}
+/** 18*/
+[src$=".png"]{
+    border: 5px solid #D0F4DE;
+}
+/** 19*/
+#parrafos p:first-child{
+    background-color: #A9DEF9;
+}
+/** 20*/
+#parrafos p:last-child{
+    background-color: #D0F4DE;
+}
