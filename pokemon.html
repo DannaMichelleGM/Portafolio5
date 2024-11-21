@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <script src="Js/pokemon.js " defer></script>
+    <style>
+        body {
+           font-family: Arial, sans-serif;
+           background-color: #ffa3e0;
+           }
+           H1 {
+               color: purple;
+           }
+           p  {
+              font-size: 16px;
+           }
+       </style>
+        
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+   />
+
+</head>
+<body>
+<a href="index.html">🏠</a>
+<a href="Objetos-js.html">⬅️</a>
+<a href="Harry.html">➡️</a>
+<main class="container">
+        
+    <form id="search-form">
+      <center>
+        <h1 >POKÉDEX</h1>
+        <label for="pokemon-name-input">Busca un Pokémon:</label>
+        <input type="text" id="pokemon-name-input" placeholder="Ejemplo: Pikachu" required>
+        <button type="submit">Buscar</button>
+    </form>
+    <article>
+        <dl>
+            <dt>Nombre</dt>
+            <dd id="pokemon-name"></dd>
+            <dt>Tipos</dt>
+            <dd id="pokemon-types"></dd>
+            <dd id="pokemon-additional-info"></dd>
+            <dt>Imagen</dt>
+            <dd>
+                <img  border= "4" id="pokemon-image" src="" alt="Imagen del Pokémon">
+            </dd>
+        </dl>
+        <h2>Sound :</h2>
+        <div class="audio-container">
+            <audio
+                controls
+                src="https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg"
+                id="audio-pokemon"
+            ></audio>
+        </div>
+    </article>
+</center>
+</main>
+</body>
+</html>
